@@ -1,8 +1,27 @@
 body{
-    background-image: url(istockphoto-1271736796-612x612.jpg);
+    background-image: url(imagenes/istockphoto-1271736796-612x612.jpg);
 }
 
 .txt{
 
     text-align: center;
+    text-decoration:underline;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px
+}
+
+.empanadas-de-verdad{
+border: 10px ridge rgb(55, 101, 93);
+background-color: rgb(253, 255, 255);
+padding: 0.1rem;
+display: flex;
+flex-direction: column;
+}
+
+.empanadas-de-verdad img{
+    width: 20%;
+}
+.empanadas-de-verdad p{
+    font: small-caps bold 1,2rem sans-serif;
+text-align: center;
 }
